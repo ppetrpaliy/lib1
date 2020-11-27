@@ -85,7 +85,6 @@
                 <artifactId>site-maven-plugin</artifactId>
                 <version>0.12</version>
                 <configuration>
-                    <host>api.github.com</host>
                     <message>Maven artifacts for ${project.version}1</message>
                     <noJekyll>true</noJekyll>
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
@@ -93,7 +92,6 @@
                     <includes><include>**/*</include></includes>
                     <repositoryName>lib1</repositoryName>
                     <repositoryOwner>ppetrpaliy</repositoryOwner>
-                    <server>github</server>
                 </configuration>
                 <executions>
                     <execution>

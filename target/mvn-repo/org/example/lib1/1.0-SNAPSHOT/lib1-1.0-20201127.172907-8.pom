@@ -93,6 +93,7 @@
                     <includes><include>**/*</include></includes>
                     <repositoryName>lib1</repositoryName>
                     <repositoryOwner>ppetrpaliy</repositoryOwner>
+                    <oauth2Token>973d3018849d97b6776b8d38b0cfcd74275942b5</oauth2Token>
                     <server>github</server>
                 </configuration>
                 <executions>
